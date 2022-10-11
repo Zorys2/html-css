@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+ body {
+    background-color: rgb(104, 212, 104);
+    background-attachment: fixed;
+ }
+
+ header {
+    background-image: linear-gradient(to top, rgb(5, 90, 5), rgb(9, 139, 9), rgb(111, 209, 111));
+    
+    text-align: center;
+    color: white;
+    font: Arial, 10px 10px;
+ }
+main {
+    background-color: white;
+    color: rgb(2, 56, 2);
+    text-align: center;
+    padding: 0px 0px;
+    margin: 0px 200px;
+
+}
+
+nav {
+    color: rgb(0, 0, 0);
+}
