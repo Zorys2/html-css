@@ -8,12 +8,13 @@
     box-sizing: border-box;
 }
 
-html {
+body, html {
+    width: 100vw;
     height: 100vh;
 }
 
 body {
-    background-color: black url(../imagens/back-phone.jpg) no-repeat;
+    background: black url(../imagens/back-phone.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
 }
@@ -31,7 +32,7 @@ h1 {
     text-align: center;
     color: white;
     font-size: 2em;
-    text-shadow: 2px 2px 0px rgb(31, 30, 30);
+    text-shadow: 2px 2px 2px rgb(31, 30, 30);
 }
 
 img {
