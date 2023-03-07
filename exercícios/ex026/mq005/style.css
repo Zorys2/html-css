@@ -15,6 +15,62 @@ header {
     text-align: center;
 }
 
-header ul {
-    background-color: rgb(70, 70, 70);
+header > h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+span.material-symbols-outlined {
+    background-color: rgba(56, 56, 56, 0.514);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span.material-symbols-outlined:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+menu > ul > li:hover {
+    background-color: rgb(83, 83, 83);
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article > h2 {
+    padding-bottom: 20px;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-size-adjust: 20px;
 }
